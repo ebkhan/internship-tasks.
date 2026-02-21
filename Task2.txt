@@ -1,0 +1,23 @@
+Task 2: Credit Risk Prediction
+Objective:
+Predict whether a loan applicant is likely to default on a loan.
+1)Import pandas library for (data manipulation and analysis)
+  Import matplotlib and seaborn for (data visualizations).
+  from sklearn.model_selection import train_test_split (used for training model)
+  from sklearn.linear_model import LogisticRegression (used for training model)
+  from sklearn.tree import DecisionTreeClassifier (used for training model)
+  from sklearn.metrics import accuracy_score, confusion_matrix, classification_report (used for training model)
+  from sklearn.preprocessing import LabelEncoder (used for training model)
+  from sklearn.metrics import ConfusionMatrixDisplay (used for confusion matrix)
+
+2)loading data set of Loan Prediction
+
+3)Handle Missing Data
+
+3.1)Missing values are common in this dataset (e.g., 'Gender', 'Married', 'Dependents', 'Self_Employed', 'Credit_History')
+3.2)Rename column name of ApplicantIncome to Income
+
+4)Visualize Key Features such as loan amount, education, and income.
+5)Encoding categorical variables converts non-numeric labels into numerical values necessary for machine learning models
+6)Model Training & Evaluation
+7) Confusion matrix
