@@ -18,6 +18,7 @@ Predict whether a loan applicant is likely to default on a loan.
 3.2)Rename column name of ApplicantIncome to Income
 
 4)Visualize Key Features such as loan amount, education, and income.
-5)Encoding categorical variables converts non-numeric labels into numerical values necessary for machine learning models
-6)Model Training & Evaluation
-7) Confusion matrix
+5)I have choosen Logistic Regression model for model training because of its interpretability, stability, and regulatory acceptability, as it clearly explains how each feature affects the default probability 
+6)Encoding categorical variables converts non-numeric labels into numerical values necessary for machine learning models
+7)Model Training & Evaluation
+8) Confusion matrix
