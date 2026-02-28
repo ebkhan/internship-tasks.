@@ -9,7 +9,6 @@ Predict whether a loan applicant is likely to default on a loan.
   from sklearn.metrics import accuracy_score, confusion_matrix, classification_report (used for training model)
   from sklearn.preprocessing import LabelEncoder (used for training model)
   from sklearn.metrics import ConfusionMatrixDisplay (used for confusion matrix)
-
 2)loading data set of Loan Prediction
 
 3)Handle Missing Data
@@ -21,4 +20,10 @@ Predict whether a loan applicant is likely to default on a loan.
 5)I have choosen Logistic Regression model for model training because of its interpretability, stability, and regulatory acceptability, as it clearly explains how each feature affects the default probability 
 6)Encoding categorical variables converts non-numeric labels into numerical values necessary for machine learning models
 7)Model Training & Evaluation
-8) Confusion matrix
+Result:
+Approximately 80% to 85% accuracy This indicates that the "robot" correctly responds eight out of ten times. 
+The Imbalance Catch: Because most people do pay back their loans, a model can get a high score just by saying "Yes" to everyone.This is why we use a Confusion Matrix to see where it's failing
+Insights:
+Income versus Loan Amount: The Debt-to-Income (DTI) ratio is just as important as your income. High earners who ask for too much money relative to their salary are seen as high risk.
+Education Matters (a little): Graduates generally have higher incomes and slightly better approval rates, but it's less important than credit history.
+
